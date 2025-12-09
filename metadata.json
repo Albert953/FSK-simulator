@@ -1,0 +1,5 @@
+{
+  "name": "FSK Live Lab",
+  "description": "A real-time, interactive M-ary Frequency Shift Keying (M-FSK) modulation simulator with AI-powered lab assistance.",
+  "requestFramePermissions": []
+}
