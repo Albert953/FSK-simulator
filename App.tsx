@@ -24,7 +24,7 @@ const App: React.FC = () => {
     symbolBuffer: [] as { time: number; value: number }[],
   });
 
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number | null>(null);
   const lastTimeRef = useRef<number>(0);
 
   // The Simulation Loop
